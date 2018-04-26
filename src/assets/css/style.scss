@@ -1,0 +1,29 @@
+
+html,body{
+    background: #2E323F;
+    overflow: hidden;
+    height: 100%;
+
+    .el-header{
+        color: #fff;
+        background-color: transparent;
+    }
+    .el-container,
+    .layout{
+        height: 100%;
+    }
+    .el-row{
+        margin-bottom: 20px;
+    }
+    .el-row:nth-last-child(1){
+        margin-bottom: 0;
+    }
+    @media screen and (max-width: 768px) {
+        .el-header{
+            padding: 0;
+        }
+    }
+    .form-width{
+        width: 800px;
+    }
+}
